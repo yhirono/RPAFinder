@@ -55,7 +55,7 @@ The argument of this function is a list of reactions. For $\emptyset$, use 0.
 A labeled buffering structure is expressed by a quadruple, 
 $( P, V_P, E_P, \mathcal E_P)$, where 
 
-- $P$ denotes a set of reactions that are perturbed 
+- $P$ denotes a set of parameters that are perturbed
 - $V_P$ denotes the set of species affected by the perturbation of the parameters in $P$ 
 - $E_P$ denotes the set of reactions affected by the perturbation of the parameters in $P$
 - $\mathcal E_P$ denote a set of added reactions to make the subnetwork $(V_P,E_P \cup \mathcal E_P)$ output-complete 
