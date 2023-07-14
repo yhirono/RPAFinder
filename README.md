@@ -80,7 +80,7 @@ The output is
 
 We can read off the dependencies of concentrations and reaction rates on all the system parameters. For example, from the third labeled buffering structure, we can see that the perturbation of the parameter of reaction $e_3$ affects the concentrations of $v_1$ and $v_3$ and the rates of reactions $e_2,e_3,e_4$. It does not affect the concentration of $v_2$ and reaction rates of $e_1$ and $e_5$, which means that they exhibit RPA with respect to this parameter. 
 
-Note that the indices specifying the parameters is arranged in the order of $(\bf k, \bf \ell)$, where $\bf k$ are rate parameters and $\bf \ell$ are the values of conserved quantities. 
+Note that the indices specifying the parameters is arranged in the order of $(\vec k, \vec \ell)$, where $\vec k$ are rate parameters and $\vec \ell$ are the values of conserved quantities. 
 As a basis of conserved quantities, those return by `NullSpace@Transpose@s` is used where `s` is the stoichiometric matrix of the reaction system. 
 
 Instead, if we use `enumerateLabeledBufferingStructuresByIndex[system]`, the species are denoted by indices. 
