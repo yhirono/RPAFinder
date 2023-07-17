@@ -88,8 +88,7 @@ Instead, if we use `enumerateLabeledBufferingStructuresByIndex[system]`, the spe
 
 # Reference
 
-- Y. Hirono, A. Gupta, M. Khammash, "_Complete characterization of robust perfect adaptation in biochemical reaction networks_," [arXiv:????]. 
-
+- Y. Hirono, A. Gupta, M. Khammash, "_Complete characterization of robust perfect adaptation in biochemical reaction networks_," [arXiv:2307.07444](https://arxiv.org/abs/2307.07444). 
 
 # Contact
 
