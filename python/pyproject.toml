@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=58.0.4", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rpa_finder"
+version = "0.1.1"
+description = "A python package to find robust perfect adaptation of chemical reaction networks."
+readme = "README.md"
+authors = [
+    { name = "Yuji Hirono", email = "yuji.hirono@gmail.com" }
+]
+dependencies = [
+    "numpy>=1.25.2",
+    "python_libsbml>=5.20.2",
+    "scipy>=1.13.0",
+    "sympy>=1.12",
+    "matplotlib>=3.8.2"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+homepage = "https://github.com/yhirono/RPAFinder"
