@@ -135,7 +135,7 @@ The output is
 
 $$\frac{d}{dt}\left[\begin{matrix}\end{matrix}\right]=\left[\begin{matrix}\end{matrix}\right]$$
 
-$$\frac{d}{dt}\left[\begin{matrix}v_{1} + v_{2} \\ v_{3}\end{matrix}\right]=\left[\begin{matrix}r_{1} - r_{3} + r_{4} - r_{5} \\ r_{3} - r_{4}\end{matrix}\right]$$
+$$\frac{d}{dt}\left[\begin{matrix}v_{1} + v_{2} \\\\ v_{3}\end{matrix}\right]=\left[\begin{matrix}r_{1} - r_{3} + r_{4} - r_{5} \\\\ r_{3} - r_{4}\end{matrix}\right]$$
 
 $$\frac{d}{dt}\left[\begin{matrix}- v_{1}\end{matrix}\right]=\left[\begin{matrix}- r_{1} + r_{2} - r_{4}\end{matrix}\right]$$
 
