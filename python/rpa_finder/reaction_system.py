@@ -84,7 +84,7 @@ def from_lbs_to_bs(lbs):
     return [lbs[1], sorted(lbs[2] + lbs[3])]
 
 
-def _nonzero_with_error(arr, ep=1e-5):
+def _nonzero_with_error(arr, ep=1e-8):
     return np.where(np.abs(arr) > ep)[0]
 
 
@@ -802,6 +802,9 @@ class ReactionSystem:
 
         p_mat = sp.Matrix.hstack( *(s21c11.transpose().nullspace()) ).transpose()
         q_mat = sp.Matrix.hstack(- s21 * s11_plus, sp.eye(s22.rows))
+
+        if p_mat.shape[0] == 0:
+            p_mat = sp.zeros(0, s21c11.cols)
 
         kerS11 = sp.Matrix.hstack(*s11.nullspace()).transpose() 
         if kerS11.shape[0] == 0:

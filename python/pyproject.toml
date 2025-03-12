@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rpa_finder"
-version = "0.1.1"
+version = "0.1.2"
 description = "A python package to find robust perfect adaptation of chemical reaction networks."
 readme = "README.md"
 authors = [
